@@ -1,0 +1,14 @@
+name: Build BGN Datapack
+on: [push]
+jobs:
+  Build Packs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Create Pack Zip
+        uses: actions/upload-artifact@v3
+        with:
+          name: Create Zip
+          path:
+          - ./datapack/

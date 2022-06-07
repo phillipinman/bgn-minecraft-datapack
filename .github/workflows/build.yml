@@ -9,6 +9,6 @@ jobs:
       - name: Create Pack Zip
         uses: actions/upload-artifact@v3
         with:
-          name: Create Zip
+          name: datapack
           path: |
            ./datapack/

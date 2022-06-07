@@ -1,7 +1,7 @@
 name: Build BGN Datapack
 on: [push]
 jobs:
-  Build Packs:
+  Build-Packs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
